@@ -1,0 +1,81 @@
+@font-face {
+    font-family: body;
+    src: url("../assets/fonts/ShadowsIntoLight-Regular.woff");
+}
+
+
+body {
+    font-family: body;
+    background-image: url("../assets/images/background.jpeg");
+    background-size: cover;
+    margin: 0;
+
+    display: grid;
+    grid-template-areas:
+    "nav nav nav"
+    "aside main main"
+    "footer footer footer";
+}
+
+main {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.5em;
+    grid-area: main;
+    background-color: rgba(184, 184, 255, 90%);
+    color: white;
+    border-radius: 1em;
+}
+
+nav {
+    margin-top: 0.5em;
+    grid-area: nav;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: "home portfolio blog contact sitereport";
+    background-color: rgba(194, 9, 86, 60%);
+    margin-right: 30em;
+    padding-left: 1em;
+    font-size: x-large;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#home {
+    grid-area: home;
+}
+
+#portfolio {
+    grid-area: portfolio;
+}
+
+#blog {
+    grid-area: blog;
+}
+
+#contact {
+    grid-area: contact;
+}
+
+#sitereport {
+    grid-area: sitereport;
+}
+
+nav > a {
+    text-align: center;
+}
+
+aside {
+    margin-top: 1em;
+    margin-left: 1em;
+    padding: 0.5em;
+    grid-area: aside;
+    background-color: rgba(172, 252, 211, 90%);
+    font-size: x-large;
+    color: white;
+    border-radius: 1em;
+}
+
+footer {
+    grid-area: footer;
+}
