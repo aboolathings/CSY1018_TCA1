@@ -1,6 +1,7 @@
 aside {
     text-align: center;
     font-size: xx-large;
+    margin-top: 0.7em;
 }
 
 aside > p > a {
@@ -15,6 +16,7 @@ aside > p > a {
     margin: 0;
     margin-left: 3.5em;
     margin-right: 3.5em;
+}
 
 body {
     font-size: xx-large;
