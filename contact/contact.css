@@ -6,10 +6,6 @@
 
 body {
     font-family: body;
-    background-image: url("../assets/images/background.jpeg");
-    background-size: cover;
-    margin: 0;
-
     display: grid;
     grid-template-areas:
     "nav nav nav"
@@ -67,26 +63,9 @@ nav > a {
 }
 
 aside {
-    margin-top: 1em;
-    margin-left: 1em;
-    padding: 0.5em;
-    grid-area: aside;
-    background-color: rgba(172, 252, 211, 90%);
-    font-size: x-large;
-    color: white;
-    border-radius: 1em;
-    max-width: 22em;
-    text-align: justify;
+   
     
-}
 
-.profileimage {
-    content: url("../assets/images/chibi.png");
-    border-radius: 2em;
-    align-content: center;
-    max-height: 15em;
-    margin: 0;
-    margin-left: 4em;
 }
 
 footer {
