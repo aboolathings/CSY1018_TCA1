@@ -24,7 +24,7 @@ main {
     padding: 0.5em;
     grid-area: main;
     background-color: rgba(184, 184, 255, 90%);
-    color: white;
+    color: black;
     border-radius: 1em;
 }
 
