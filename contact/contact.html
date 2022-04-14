@@ -9,30 +9,69 @@
     <base href="../"/>
 
     <link rel="stylesheet" href="style/main.css" media="screen"/>
-    <link rel="stylesheet" href="home/index.css" media="screen"/>
+    <link rel="stylesheet" href=contact/contact.css" media="screen"/>
 </head>
 <body>
     <nav>
-
-        <a href="" id="home">home</a>
-        <a href="" id="portfolio">portfolio</a>
-        <a href="" id="blog">blog</a>
-        <a href="" id="contact">contact</a>
-        <a href="" id="sitereport">sitereport</a>
+        <a href="home/index.html" id="home">home</a>
+        <a href="portfolio/portfolio.html" id="portfolio">portfolio</a>
+        <a href="blog/blog.html" id="blog">blog</a>
+        <a href="contact/contact.html" id="contact">contact</a>
+        <a href="sitereport/sitereport.html" id="sitereport">sitereport</a>
     </nav>
     <main>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur aliquid non quaerat omnis debitis quisquam obcaecati, temporibus eum laborum eos qui! Beatae praesentium molestias quam laudantium aspernatur! Delectus, veritatis pariatur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum, eveniet repellendus odit autem minus dicta ut praesentium nesciunt amet consectetur, animi nam sunt nihil corrupti ex vel quo voluptates!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis nemo eligendi voluptate architecto, facilis cupiditate eum hic atque similique magnam molestiae, ab nostrum tenetur pariatur minus natus distinctio earum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, delectus quam quas porro ratione ipsa nisi quia, maiores ducimus deleniti obcaecati consequuntur quo dolorem id temporibus ad fugiat ea molestiae?
+        <h1> contact form </h1>
+        <form action= "mailto:hannah.james21@my.northampton.ac.uk?subject=website contact form" method="POST">
+            <section id="contact_information_name">
+                <label for="first_name">name: </label> 
+                <input type="text" id="first_name" name="first name" placeholder="first name"/>
+                <input type="text" name="last name" placeholder="last name"/>
+            </section>
+            <section id="contact_information_age">
+                <label for="age"> age: </label>
+                <input type="text" id="age" name="age" placeholder="age"/>
+            </section>
+            <section id="contact_information_gender">
+                <label for="gender">gender: </label>
+                <label for="gender_male">male </label>
+                <input id="gender_male" type="radio" name="myradio" value="male" />
+                <label for="gender_female">female </label>
+                <input id="gender_female" type="radio" name="myradio" value="female" />
+                <label for="gender_non_binary">non binary </label>
+                <input id="gender_non_binary" type="radio" name="myradio" value="non binary" />
+                <label for="gender_other">other </label>
+                <input id="gender_other" type="radio" name="myradio" value="other" />
+                <label for="gender_prefer_not_to_say">prefer not to say </label>
+                <input id="gender_prefer_not_to_say" type="radio" name="myradio" value="prefer not to say" />
+            </section>
+            <section id="contact_information_company">
+                <label for="company">company: </label>
+                <input type="text" id="company" name="company" placeholder="company"/>
+            <section id="contact_email">
+                <label for="contact_email">email address: </label>
+                <input id="contact_email" type="text" name="email address" placeholder="email address" />
+            </section>
+            <section id="contact_number">
+                <label for="contact_number">phone number: </label>
+                <input id="contact_number" type="text" name="phone number" placeholder="phone number" />
+                <label >(please include area code!) </label>
+            </section>
+                <input type="submit" value="Submit" name="submit" />
+        </form>
     </main>
     <aside>
         <img class= "profileimage" alt="chibi image of Hannah">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iure exercitationem, tenetur, aliquid vel quos vero necessitatibus temporibus, dignissimos cum cupiditate iusto. Debitis fugiat placeat, perferendis cumque vero amet earum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, velit corrupti. Natus ratione quo unde. Id, quo rerum deleniti minus, ipsa tenetur nesciunt in enim vitae eos dicta! Magnam, inventore!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis provident cum, nemo nostrum rerum iste ex sint asperiores rem numquam nesciunt nihil et vero ad consectetur. Quas nostrum et ex.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam nulla rem recusandae vero vel, fugit animi quia incidunt suscipit mollitia nam ullam iste inventore eos, doloremque odit architecto quidem!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, officia repudiandae. Unde, a. In facere velit praesentium fugiat quod qui sit eos beatae minus numquam similique, iste voluptatibus? Perferendis, accusamus!</p>
+        <p> 
+            Hello everyone! This is the contact page to send across a form to me via email, please fill out the form to the right as appropriate!
+        </p>
+        <ul>
+            <li> All contact information: </li>
+            <li> Phone number: +447826069328 </li>
+            <li> Personal email: hannah_james@outlook.com </li>
+            <li> University email: hannah.james21@my.northampton.ac.uk </li>
+            <li> Based in: Milton Keynes, Buckinghamshire, England, United Kingdom </li>
+            <li> University address: Waterside Campus, University Drive, Northampton, Northamptonshire, England, United Kingdom, NN1 5PH </li>
+        </ul>
     </aside>
     <footer>
         &copy; Hannah James 2022

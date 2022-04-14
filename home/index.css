@@ -1,0 +1,21 @@
+aside {
+    text-align: center;
+    font-size: xx-large;
+}
+
+aside > p > a {
+    color: white; 
+}
+
+.profileimage {
+    content: url("../assets/images/chibi.png");
+    border-radius: 2em;
+    align-content: center;
+    max-height: 11em;
+    margin: 0;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+
+body {
+    font-size: xx-large;
+}

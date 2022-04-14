@@ -12,9 +12,9 @@ body {
 
     display: grid;
     grid-template-areas:
-    "nav nav nav"
-    "aside main main"
-    "footer footer footer";
+    "nav nav"
+    "aside main"
+    "footer footer";
 }
 
 main {
@@ -86,9 +86,11 @@ aside {
     align-content: center;
     max-height: 15em;
     margin: 0;
-    margin-left: 4em;
+    margin-left: 4em
 }
 
 footer {
     grid-area: footer;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
 }
