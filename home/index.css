@@ -18,6 +18,8 @@ aside > p > a {
     margin-right: 3.5em;
 }
 
-body {
-    font-size: xx-large;
+main {
+    font-size: x-large;
+    text-align: justify;
+    margin-top: 1em;
 }
