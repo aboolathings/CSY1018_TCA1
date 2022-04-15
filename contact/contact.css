@@ -1,8 +1,5 @@
-
 main {
-    margin-left: -2em;
     margin-top: 1em;
-    padding-top: 2em;
     text-align: center;
     font-size: x-large;
     font-weight: 600;
@@ -11,7 +8,12 @@ main {
 form {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 2em 2em 2em 2em 2em 2em 2em 2em;
+    grid-template-rows: 2em 2em 2em 2em 2em 2em 10em 2em;
+}
+
+#enquiry_information > textarea {
+    min-height: 15em;
+    min-width: 30em;
 }
 
 aside {

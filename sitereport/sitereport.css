@@ -1,0 +1,32 @@
+main > h1 {
+    text-align: center;
+}
+
+main {
+    margin-top: 1em;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.colourpalette {
+    content: url("../assets/images/colour_palette.png");
+    align-content: center;
+    max-height: 8em;
+}
+
+.font_style {
+    content: url("../assets/images/font_style.png");
+    align-content: center;
+    max-height: 8em;
+}
+
+.wisteria {
+    content: url("../assets/images/wisteria.jpeg");
+    align-content: center;
+    max-height: 10em;
+}
+
+aside > h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
