@@ -4,7 +4,9 @@ aside > h3 {
 }
 
 aside > img:hover {
-    transform: scale(200%) translateX(10em);
+    transform: scale(200%) translate(10em, -3em);
+    position: sticky;
+    transition: 0.5s ease-in;
 }
 
 main > h1 {
@@ -32,7 +34,7 @@ main {
 .wisteria {
     content: url("../assets/images/wisteria.jpeg");
     align-content: center;
-    max-height: 10em;
+    max-height: 12em;
 }
 
 main > p > a {
