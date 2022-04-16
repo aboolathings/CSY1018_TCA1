@@ -1,3 +1,12 @@
+aside > h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+aside > img:hover {
+    transform: scale(200%) translateX(10em);
+}
+
 main > h1 {
     text-align: center;
 }
@@ -26,7 +35,10 @@ main {
     max-height: 10em;
 }
 
-aside > h3 {
-    margin-top: 0.5em;
-    margin-bottom: 0;
+main > p > a {
+    color: rgba(147, 129, 255, 90%);
 }
+
+main > p > a:hover {
+    color: rgba(255, 216, 190, 90%);
+   }

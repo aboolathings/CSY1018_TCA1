@@ -41,6 +41,19 @@ nav {
     border-bottom-right-radius: 1em;
 }
 
+nav ul ul {
+    position: absolute;
+    display: none;
+    background-color: green;
+    padding: 0;
+    width: 100%;
+}
+
+nav > a:hover {
+    color: rgba(255, 216, 190, 90%);
+   }
+
+
 #home {
     grid-area: home;
 }

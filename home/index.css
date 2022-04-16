@@ -7,22 +7,6 @@ body {
     "footer footer footer";
 }
 
-main {
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding: 0.5em;
-    grid-area: main;
-    background-color: rgba(184, 184, 255, 90%);
-    color: white;
-    border-radius: 1em;
-    font-size: x-large;
-}
-
-main > h1 {
-    text-align: center;
-}
-
 nav {
     margin-top: 0.5em;
     grid-area: nav;
@@ -34,6 +18,11 @@ nav {
     font-size: x-large;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+}
+
+nav > a {
+    text-align: center;
+    padding: 1em;
 }
 
 #home {
@@ -61,7 +50,26 @@ aside {
     text-align: center;
 }
 
-nav > a {
+aside > p > a {
+    color: rgba(147, 129, 255, 90%);
+}
+
+aside > p > a:hover {
+    color: rgba(255, 216, 190, 90%);
+}
+
+main {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.5em;
+    grid-area: main;
+    background-color: rgba(184, 184, 255, 90%);
+    color: white;
+    border-radius: 1em;
+    font-size: x-large;
+}
+
+main > h1 {
     text-align: center;
-    padding: 1em;
 }
