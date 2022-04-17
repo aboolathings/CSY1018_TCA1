@@ -43,3 +43,9 @@ main > article > h2 {
 main > article > p {
     text-align: justify;
 }
+
+.blog:hover {
+    position: sticky;
+    transform: scale(150%);
+    background-color: rgba(194, 9, 86, 60%);
+}

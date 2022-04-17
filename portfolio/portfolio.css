@@ -78,3 +78,21 @@ main > section > img:hover {
     transform: scale(200%) translate(-5em,2em);
     transition: 0.5s ease-in;
 }
+
+.text1:hover {
+    position: sticky;
+    transform: scale(150%);
+    background-color: rgba(194, 9, 86, 60%);
+}
+
+.text2:hover {
+    position: sticky;
+    transform: scale(150%);
+    background-color: rgba(194, 9, 86, 60%);
+}
+
+.text3:hover {
+    position: sticky;
+    transform: scale(150%);
+    background-color: rgba(194, 9, 86, 60%);
+}

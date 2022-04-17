@@ -55,12 +55,17 @@ aside {
     margin-right: 4em;
 }
 
-aside > p > a {
+aside > ul > li > a {
     color: rgba(147, 129, 255, 90%);
 }
 
-aside > p > a:hover {
+aside > ul > li > a:hover {
     color: rgba(255, 216, 190, 90%);
+}
+
+aside > ul {
+     list-style: none;
+     text-align: center;
 }
 
 main {
