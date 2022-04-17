@@ -57,42 +57,39 @@ main > section > p {
 }
 
 .cosplay1 {
-    content: url("../assets/images/cosplay1.png");
     grid-area: cosplay1;
     max-height: 20em;
 }
 
 .cosplay2 {
-    content: url("../assets/images/cosplay2.png");
     grid-area: cosplay2;
     max-height: 20em;
 }
 
 .cosplay3 {
-    content: url("../assets/images/cosplay3.png");
     grid-area: cosplay3;
     max-height: 20em;
 }
 
 main > section > img:hover {
-    transform: scale(200%) translate(-5em,2em);
+    transform: scale(2) translate(-5em,2em);
     transition: 0.5s ease-in;
 }
 
 .text1:hover {
     position: sticky;
-    transform: scale(150%);
+    transform: scale(1.5);
     background-color: rgba(194, 9, 86, 60%);
 }
 
 .text2:hover {
     position: sticky;
-    transform: scale(150%);
+    transform: scale(1.5);
     background-color: rgba(194, 9, 86, 60%);
 }
 
 .text3:hover {
     position: sticky;
-    transform: scale(150%);
+    transform: scale(1.5);
     background-color: rgba(194, 9, 86, 60%);
 }

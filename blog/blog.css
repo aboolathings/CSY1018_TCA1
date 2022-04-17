@@ -22,7 +22,7 @@ main {
     margin-left: 1.5em;
 }
 
-main > section {
+main > div {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     margin: 1em;
@@ -46,6 +46,6 @@ main > article > p {
 
 .blog:hover {
     position: sticky;
-    transform: scale(150%);
+    transform: scale(1.5);
     background-color: rgba(194, 9, 86, 60%);
 }

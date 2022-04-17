@@ -93,7 +93,6 @@ aside {
 }
 
 .profileimage {
-    content: url("../assets/images/chibi.png");
     border-radius: 2em;
     align-content: center;
     max-height: 15em;
@@ -102,7 +101,7 @@ aside {
 
 footer {
     grid-area: footer;
-    grid-template-columns: 1;
-    grid-template-rows: 1;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
     text-align: center;
 }

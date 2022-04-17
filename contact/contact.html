@@ -24,19 +24,19 @@
         <a href="sitereport/sitereport.html" id="sitereport">sitereport</a>
     </nav>
     <main>
-        <h1> &#9825~ contact form ~&#9825 </h1>
-        <form action= "mailto:hannah.james21@my.northampton.ac.uk?subject=website contact form" method="POST">
-            <section id="contact_information_name">
+        <h1> &#9825;~ contact form ~&#9825; </h1>
+        <form action= "mailto:hannah.james21@my.northampton.ac.uk?subject=website_contact_form" method="POST">
+            <div id="contact_information_name">
                 <label for="first_name">name: </label> 
                 <input type="text" id="first_name" name="first name" placeholder="first name"/>
                 <input type="text" name="last name" placeholder="last name"/>
-            </section>
-            <section id="contact_information_age">
+            </div>
+            <div id="contact_information_age">
                 <label for="age"> age: </label>
                 <input type="text" id="age" name="age" placeholder="age"/>
-            </section>
-            <section id="contact_information_gender">
-                <label for="gender">gender: </label>
+            </div>
+            <div id="contact_information_gender">
+                <p> gender:
                 <label for="gender_male">male </label>
                 <input id="gender_male" type="radio" name="myradio" value="male" />
                 <label for="gender_female">female </label>
@@ -47,38 +47,39 @@
                 <input id="gender_other" type="radio" name="myradio" value="other" />
                 <label for="gender_prefer_not_to_say">prefer not to say </label>
                 <input id="gender_prefer_not_to_say" type="radio" name="myradio" value="prefer not to say" />
-            </section>
-            <section id="contact_information_company">
+                </p>
+            </div>
+            <div id="contact_information_company">
                 <label for="company">company: </label>
                 <input type="text" id="company" name="company" placeholder="company"/>
-            </section>
-            <section id="contact_email">
+            </div>
+            <div id="contact_information_email">
                 <label for="contact_email">email address: </label>
-                <input id="contact_email" type="text" name="email address" placeholder="email address" />
-            </section>
-            <section id="contact_number">
+                <input type="text" id="contact_email" name="email address" placeholder="email address" />
+            </div>
+            <div id="contact_information_number">
                 <label for="contact_number">phone number: </label>
-                <input id="contact_number" type="text" name="phone number" placeholder="phone number" />
+                <input type="text" id="contact_number" name="phone number" placeholder="phone number" />
                 <label>(please include area code!) </label>
-            </section>
-            <section id="enquiry_information">
-                <label for="enquiry_information">enquiry information: </label>
+            </div>
+            <div id="enquiry_information">
+                <p> enquiry information: </p>
                 <textarea name="enquiry_information" placeholder="enquiry information">
                 </textarea>
-            </section>
+            </div>
                 <input type="submit" value="Submit" name="submit" />
         </form>
         <p>
-            &#9825~ thank you for filling out a form! I will aim to respond to all correspondance within 3 working days ~&#9825
+            &#9825;~ thank you for filling out a form! I will aim to respond to all correspondance within 3 working days ~&#9825;
         </p>
     </main>
     <aside>
-        <img class= "profileimage" alt="chibi image of Hannah">
+        <img class= "profileimage" src=assets/images/chibi.png alt="chibi image of Hannah">
         <p>
             Hello everyone! This is the contact page to send across a form to me via email, please fill out the form to the right as appropriate!
         </p>
+        <h2> All contact information: </h2>
         <ul>
-            All contact information:
             <li> Phone number: +447826069328 </li>
             <li> Personal email: hannah_james@outlook.com </li>
             <li> University email: hannah.james21@my.northampton.ac.uk </li>

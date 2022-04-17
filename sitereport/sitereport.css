@@ -4,7 +4,7 @@ aside > h3 {
 }
 
 aside > img:hover {
-    transform: scale(200%) translate(10em, -3em);
+    transform: scale(2) translate(10em, -3em);
     position: sticky;
     transition: 0.5s ease-in;
 }
@@ -16,19 +16,16 @@ main {
 }
 
 .colourpalette {
-    content: url("../assets/images/colour_palette.png");
     align-content: center;
     max-height: 8em;
 }
 
 .font_style {
-    content: url("../assets/images/font_style.png");
     align-content: center;
     max-height: 8em;
 }
 
 .wisteria {
-    content: url("../assets/images/wisteria.jpeg");
     align-content: center;
     max-height: 12em;
 }
