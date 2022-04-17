@@ -10,9 +10,13 @@
 
     <link rel="stylesheet" href="style/main.css" media="screen"/>
     <link rel="stylesheet" href="blog/blog.css" media="screen"/>
+    <link rel="stylesheet" href="style/mobile.css" media="screen and (max-width: 800px)" />
 </head>
-<body>
+<body id="clicked">
+    <a class="shownav" href="home/index.html#clicked"></a>
     <nav>
+        <a href="home/index.html#" id="close">X</a>
+        <a class="shownav"></a>
         <a href="home/index.html" id="home">home</a>
         <a href="portfolio/portfolio.html" id="portfolio">portfolio</a>
         <a href="blog/blog.html" id="blog">blog</a>
@@ -22,18 +26,24 @@
     <main>
         <h1> &#9825~ blog ~&#9825 </h1>
         <section>
-            <h2 class="header1"> April 11th 2022 </h2>
-            <h2 class="header2"> April 16th 2022 </h2>
-            <h2 class="header3"> April 17th 2022 </h2>
-            <p class="blog1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est praesentium dolores ratione dolorem at adipisci, incidunt autem eos minus doloribus aliquid animi ab et voluptatem officiis sunt corporis nisi.
-            </p>
-            <p class="blog2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore deleniti voluptas nostrum, consectetur laudantium dolorem officia nobis laboriosam nisi aspernatur ullam, itaque necessitatibus mollitia magni excepturi eligendi amet. Minus!
-            </p>
-            <p class="blog3" >
+            <article>
+                <h2 class="header1"> April 11th 2022 </h2>
+                <p class="blog1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est praesentium dolores ratione dolorem at adipisci, incidunt autem eos minus doloribus aliquid animi ab et voluptatem officiis sunt corporis nisi.
+                </p>
+            </article>
+            <article>
+                <h2 class="header2"> April 16th 2022 </h2>
+                <p class="blog2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore deleniti voluptas nostrum, consectetur laudantium dolorem officia nobis laboriosam nisi aspernatur ullam, itaque necessitatibus mollitia magni excepturi eligendi amet. Minus!
+                </p>
+            </article>
+            <article>
+                <h2 class="header3"> April 17th 2022 </h2>
+                <p class="blog3" >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptate sit unde sunt illum? Quod quia ipsa perferendis optio quos eveniet incidunt! Eaque expedita rerum hic sint, a corrupti iusto.
-            </p>
+                </p>
+            </article>
         </section>
     </main>
     <aside>
@@ -48,7 +58,3 @@
     </footer>
 </body>
 </html>
-
-You will use columns on this page to demonstrate your skill. The
-content should be largely typical for a blog and contain three entries around your progress
-on the assignment. 

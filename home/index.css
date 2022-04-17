@@ -50,6 +50,11 @@ aside {
     text-align: center;
 }
 
+.profileimage {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
 aside > p > a {
     color: rgba(147, 129, 255, 90%);
 }

@@ -1,0 +1,74 @@
+body {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.shownav {
+    position: fixed;
+    z-index: 1000;
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    border-radius: 0.1em;
+}
+
+.shownav:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0.3em;
+    left: 0px;
+    border-top: 0.2em solid white;
+}
+
+#clicked:target nav {
+    display: grid;
+    white-space: nowrap;
+    grid-template-areas: 
+    "close"
+    "home" 
+    "portfolio" 
+    "blog" 
+    "contact" 
+    "sitereport"; 
+    grid-template-rows: 10% 10% 10% 10% 10% 10%;
+}
+
+#clicked:target #close {
+    display: block;
+}
+
+nav {
+    display: none;
+    background-color: rgba(194, 9, 86, 60%);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "aside"
+    "main"
+    "footer";
+}
+
+aside {
+    max-width: 16em;
+}
+
+.profileimage {
+    max-width: 10em;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    max-width: 16em;
+}
