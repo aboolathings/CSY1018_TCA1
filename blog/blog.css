@@ -1,0 +1,61 @@
+aside {
+    padding-top: 3em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+aside > p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+main > h1 {
+    font-size: 3em;
+}
+
+main {
+    margin-left: -17em;
+}
+
+main > section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas:
+    "header1 header2 header3"
+    "blog1 blog2 blog3";
+    margin: 1em;
+    font-size: larger;
+}
+
+main > section > .header1, main > section > .blog1 {
+    border: 0.2em dotted white;
+    border-radius: 1em;
+    margin: 1em;
+    margin-bottom: auto;
+    padding: 0.5em;
+}
+
+main > section > .header2, main > section > .blog2 {
+    border: 0.2em dotted white;
+    border-radius: 1em;
+    margin: 1em;
+    margin-bottom: auto;
+    padding: 0.5em;
+}
+
+main > section > .header3, main > section > .blog3 {
+    border: 0.2em dotted white;
+    border-radius: 1em;
+    margin: 1em;
+    margin-bottom: auto;
+    padding: 0.5em;
+}
+
+main > section > h2 {
+    text-align: left;
+}
+
+main > section > p {
+    text-align: justify;
+}

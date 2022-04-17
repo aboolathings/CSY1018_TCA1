@@ -69,7 +69,3 @@ main {
     border-radius: 1em;
     font-size: x-large;
 }
-
-main > h1 {
-    text-align: center;
-}
